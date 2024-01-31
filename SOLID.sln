@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiskovSubstitution", "LiskovSubstitution", "{31093356-FAA1-4AF0-821E-D26B7AE1BCF3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-LiskovSubstitution", "03-LiskovSubstitution", "{31093356-FAA1-4AF0-821E-D26B7AE1BCF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample1", "Sample1", "{BDD58FB5-ACE4-489B-B740-89A4B4DD0B3F}"
 EndProject
@@ -17,15 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RealTimeExample", "RealTime
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeExample", "LiskovSubstitutionPrinciple\Sample1\RealTimeExample\RealTimeExample\RealTimeExample.csproj", "{D152EF9F-97E8-474C-8E8B-654A3575F0D1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfaceSegregation", "InterfaceSegregation", "{A487EACD-7D1F-47E8-98BA-4B1B658DF8DC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-InterfaceSegregation", "04-InterfaceSegregation", "{A487EACD-7D1F-47E8-98BA-4B1B658DF8DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample1", "Sample1", "{D27B31DA-5639-4DDD-99EF-BC66BA81FEC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SOLID", "InterfaceSegregation\Sample1\04_SOLID.csproj", "{80869D2F-A345-41C6-882A-062C39C97FB9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenClosed", "OpenClosed", "{8AB30888-447B-42C7-BF2B-79DD5E8BA21A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-OpenClosed", "02-OpenClosed", "{8AB30888-447B-42C7-BF2B-79DD5E8BA21A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingleResponsibility", "SingleResponsibility", "{008CF523-1E66-4846-8BC1-CBFDBD66398E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-SingleResponsibility", "01-SingleResponsibility", "{008CF523-1E66-4846-8BC1-CBFDBD66398E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample1", "Sample1", "{39FD9AB6-13DF-4939-8F28-0DD9A1A04A15}"
 EndProject
@@ -34,6 +34,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\Sample1\SingleResponsibilityPrinciple.csproj", "{7697859C-C2A1-4CF2-B9D5-40CBA63D6619}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedPrinciple", "OpenClosedPrinciple\Sample1\OpenClosedPrinciple.csproj", "{F143D5AA-9D95-4928-8482-ED69B8A9BFF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-DependencyInversion", "05-DependencyInversion", "{6F0E0B06-8BA6-46F8-B740-B6C8B5FC2EEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample1", "Sample1", "{F28F6476-7507-43D1-8A0C-77C2E0655D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_SOLID", "DependencyInversion\Sample1\05_SOLID.csproj", "{6958529B-BBDC-4BF0-8B31-526366AFB436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +71,10 @@ Global
 		{F143D5AA-9D95-4928-8482-ED69B8A9BFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F143D5AA-9D95-4928-8482-ED69B8A9BFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F143D5AA-9D95-4928-8482-ED69B8A9BFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6958529B-BBDC-4BF0-8B31-526366AFB436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6958529B-BBDC-4BF0-8B31-526366AFB436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6958529B-BBDC-4BF0-8B31-526366AFB436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6958529B-BBDC-4BF0-8B31-526366AFB436}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +92,8 @@ Global
 		{55E40308-D3B7-4D70-B00E-9A25FC37EBD8} = {8AB30888-447B-42C7-BF2B-79DD5E8BA21A}
 		{7697859C-C2A1-4CF2-B9D5-40CBA63D6619} = {39FD9AB6-13DF-4939-8F28-0DD9A1A04A15}
 		{F143D5AA-9D95-4928-8482-ED69B8A9BFF8} = {55E40308-D3B7-4D70-B00E-9A25FC37EBD8}
+		{F28F6476-7507-43D1-8A0C-77C2E0655D15} = {6F0E0B06-8BA6-46F8-B740-B6C8B5FC2EEE}
+		{6958529B-BBDC-4BF0-8B31-526366AFB436} = {F28F6476-7507-43D1-8A0C-77C2E0655D15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D7BCE58-70B3-4186-9DAD-6CA5A652B27D}
