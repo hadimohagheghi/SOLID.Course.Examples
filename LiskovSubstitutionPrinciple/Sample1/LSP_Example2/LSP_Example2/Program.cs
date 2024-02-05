@@ -4,19 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Apple apple = new Orange();
+         /*   Apple apple = new Orange();
             Console.WriteLine(apple.GetColor());
 
-            /*
+            Console.ReadKey();
+         */
+           
             IFruit fruit = new Orange();
             Console.WriteLine($"Color of Orange: {fruit.GetColor()}");
             fruit = new Apple();
             Console.WriteLine($"Color of Apple: {fruit.GetColor()}");
-            Console.ReadKey();*/
+            Console.ReadKey();
         }
 
 
-        public class Apple
+       /* public class Apple
         {
             public virtual string GetColor()
             {
@@ -30,9 +32,9 @@
                 return "Orange";
             }
         }
-
+        */
         /*********************/
-        /*
+        
         public interface IFruit
         {
             string GetColor();
@@ -51,7 +53,7 @@
                 return "Orange";
             }
         }
-        */
+        
 
     }
 }
