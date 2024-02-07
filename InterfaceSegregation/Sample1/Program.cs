@@ -10,6 +10,8 @@ namespace _04_SOLID
     {
         static void Main(string[] args)
         {
+            IAnimal animal=new Dolphin();
+            animal.Fly();
         }
     }
 

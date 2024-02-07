@@ -10,8 +10,9 @@ namespace _05_SOLID
     {
         static void Main(string[] args)
         {
-            DatabaseManager db=new DatabaseManager(new EmailNotification());
-            DatabaseManager db2=new DatabaseManager(new SmsNotification());
+            DatabaseManager DBManager=new DatabaseManager(new EmailNotification());
+            DBManager.Remove();
+            Console.ReadKey();
         }
     }
 
@@ -25,7 +26,7 @@ namespace _05_SOLID
     {
         public void Send(string message)
         {
-            // TODO : Send Message
+           Console.WriteLine($"Email Sent! : {message}");
         }
 
     }
@@ -34,31 +35,38 @@ namespace _05_SOLID
     {
         public void Send(string message)
         {
-            // TODO : Send Message
+            Console.WriteLine($"SMS Sent! : {message}");
         }
     }
 
+    //......
+
     public class DatabaseManager
     {
-        private INotification notification;
+        
+        private INotification _notification;
 
         public DatabaseManager(INotification notification)
         {
-            this.notification = notification;
+            _notification= notification;
         }
+        
         public void Add()
         {
-            notification.Send("Add New Record");
+            //////////......////
+            _notification.Send("Add New Record");
         }
 
         public void Remove()
         {
-            notification.Send("Remove");
+            //////////......////
+            _notification.Send("Remove");
         }
 
         public void Update()
         {
-            notification.Send("Update");
+            //////////......////
+            _notification.Send("Update");
         }
     }
 }
